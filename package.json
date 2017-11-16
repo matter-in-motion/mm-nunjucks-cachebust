@@ -1,5 +1,5 @@
 {
-  "name": "mm-nunjucks-cachebust",
+  "name": "mm-nunjucks-fuzzyfile",
   "version": "1.0.0",
   "description": "Cache busting extension for nunjucks",
   "keywords": [
@@ -10,20 +10,21 @@
     "templates",
     "nunjucks",
     "extension",
-    "cache",
-    "bust"
+    "fuzzy",
+    "file",
+    "name"
   ],
   "author": "Alexey Novikov <v@2dubs.com> (http://2dubs.com)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:matter-in-motion/mm-nunjucks-cachebust.git"
+    "url": "git@github.com:matter-in-motion/mm-nunjucks-fuzzyfile.git"
   },
   "directories": {
     "lib": "./lib"
   },
   "main": "index.js",
   "dependencies": {
-    "micromatch": "^3.0.0"
+    "micromatch": "^3.1.4"
   }
 }

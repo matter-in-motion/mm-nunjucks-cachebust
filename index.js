@@ -1,7 +1,7 @@
 'use strict';
-const CacheBust = require('./tags/cachebust');
+const Fuzzyfile = require('./tags/fuzzyfile');
 
 module.exports = units => {
   const env = units.require('templates.nunjucks');
-  env.addExtension('cachebust', new CacheBust());
+  env.addExtension('fuzzyfile', new Fuzzyfile());
 }

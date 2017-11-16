@@ -1,6 +1,6 @@
-# Matter In Motion. Nunjucks cache busting tag extension
+# Matter In Motion. Nunjucks fuzzy file search tag extension
 
-Nunjucks cache busting tag extension for [matter in motion](https://github.com/matter-in-motion/mm) framework
+Nunjucks fuzzy file search tag extension for [matter in motion](https://github.com/matter-in-motion/mm) framework
 
 ## Usage
 
@@ -8,12 +8,12 @@ Nunjucks cache busting tag extension for [matter in motion](https://github.com/m
 
 
 ## Tags
-### cachebuster
+### fuzzyfile
 Looks for file matching pattern `filename*.ext` and returns full url to this file. If no matches found returns url to file.
 
-`{% cachebuster filepath, baseurl %}`
+`{% fuzzyfile filepath %}`
 
 ### Exmaple:
-`{% cahebuster 'static/app.js', '/static' %}`
+`{% fuzzyfile 'static/app.js' %}`
 
 License: MIT.
