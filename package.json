@@ -1,7 +1,7 @@
 {
-  "name": "mm-nunjucks-fuzzyfile",
+  "name": "mm-nunjucks-extensions",
   "version": "1.0.0",
-  "description": "Cache busting extension for nunjucks",
+  "description": "Extensions loader for nunjucks",
   "keywords": [
     "matter",
     "in",
@@ -10,21 +10,16 @@
     "templates",
     "nunjucks",
     "extension",
-    "fuzzy",
-    "file",
-    "name"
+    "loader"
   ],
   "author": "Alexey Novikov <v@2dubs.com> (http://2dubs.com)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:matter-in-motion/mm-nunjucks-fuzzyfile.git"
+    "url": "git@github.com:matter-in-motion/mm-nunjucks-extensions.git"
   },
   "directories": {
     "lib": "./lib"
   },
-  "main": "index.js",
-  "dependencies": {
-    "micromatch": "^3.1.4"
-  }
+  "main": "index.js"
 }
