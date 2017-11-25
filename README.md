@@ -7,7 +7,7 @@ Loads nunjucks extensions into your nunjucks environment in the [matter in motio
 
 ## Usage
 
-[Extensions installation intructions](https://github.com/matter-in-motion/mm/blob/master/docs/extensions.md)
+[Extensions installation instructions](https://github.com/matter-in-motion/mm/blob/master/docs/extensions.md)
 
 ## Settings
 
