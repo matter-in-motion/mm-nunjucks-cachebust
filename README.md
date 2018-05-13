@@ -11,6 +11,6 @@ Loads nunjucks extensions into your nunjucks environment in the [matter in motio
 
 ## Settings
 
-Add `nunjucksExtensions` array to the settings with extensions. If an extension is a string, it will require the module and will create and add an extension. If it is an extension class itself if will just add it to your environment.
+Add `extensions` array to the nunjucks settings with extensions. If an extension is a string, it will require the module and will create and add an extension. If it is an `extension` class itself it will be added to your environment.
 
 License: MIT.
